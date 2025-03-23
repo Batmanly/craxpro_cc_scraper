@@ -23,8 +23,7 @@ options = webdriver.ChromeOptions()
 # proxy = '127.0.0.1:9050'
 # options.add_argument('--proxy-server=socks5://' + proxy)
 
-#Make faster chrome
-#options.add_argument("start-maximized")
+# Chrome Settings
 options.add_argument("start-maximized")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
