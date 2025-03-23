@@ -1,1 +1,4 @@
-selenium~=4.3.0
+selenium~=4.30.0
+structlog~=25.1.0
+webdriver-manager~=4.0.2
+python-dotenv~=1.0.1
